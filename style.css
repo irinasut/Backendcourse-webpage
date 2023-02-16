@@ -1,19 +1,15 @@
-.header{
-    position: relative;
+h1, 
+h2,
+p {
+    font-family: Helvetica;
 }
 
+
 h1 {
-    font-family: Helvetica;
+    background-image: url('img/pattern.jpeg');
     color:  khaki;
     font-size: 100px;
     font-weight: bold;
-    position: absolute;
-    top: 0px;
-    margin: 0%;
-    padding: 0%;
-}
-
-.header_title {
     text-align: center;
 }
 
@@ -25,7 +21,6 @@ h1 {
 }
 
 h2 {
-    font-family: Helvetica;
     font-size: 35px;
     font-weight: bold;
     color: white;
@@ -45,13 +40,11 @@ h2 {
 }
 
 .title {
-    font-family: Helvetica;
     font-size: 20px;
     font-weight: bold;
 }
 
 .description {
-    font-family: Helvetica;
     font-size: 16px;
 }
 
